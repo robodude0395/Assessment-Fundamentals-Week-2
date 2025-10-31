@@ -9,11 +9,11 @@ collected 0 items / 3 errors
 Level-1/task_one.py:20:41: E0601: Using variable 'Assessment' before assignment (used-before-assignment)
 Level-1/task_one.py:31:0: R0903: Too few public methods (0/2) (too-few-public-methods)
 ************* Module task_two
-Level-2/task_two.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-Level-2/task_two.py:19:14: E0602: Undefined variable 'Trainee' (undefined-variable)
-Level-2/task_two.py:22:27: E0602: Undefined variable 'MultipleChoiceAssessment' (undefined-variable)
-Level-2/task_two.py:24:27: E0602: Undefined variable 'TechnicalAssessment' (undefined-variable)
-Level-2/task_two.py:26:27: E0602: Undefined variable 'MultipleChoiceAssessment' (undefined-variable)
+Level-2/task_two.py:20:41: E0601: Using variable 'Assessment' before assignment (used-before-assignment)
+Level-2/task_two.py:43:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+Level-2/task_two.py:61:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+Level-2/task_two.py:68:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+Level-2/task_two.py:75:0: R0903: Too few public methods (1/2) (too-few-public-methods)
 ************* Module task_three
 Level-3/task_three.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 Level-3/task_three.py:17:0: C0115: Missing class docstring (missing-class-docstring)
@@ -27,5 +27,5 @@ Level-3/task_three.py:35:23: W0621: Redefining name 'quiz' from outer scope (lin
 Level-3/task_three.py:33:0: R0903: Too few public methods (0/2) (too-few-public-methods)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.48/10 (previous run: 4.48/10, +0.00)
+Your code has been rated at 7.90/10 (previous run: 7.90/10, +0.00)
 
