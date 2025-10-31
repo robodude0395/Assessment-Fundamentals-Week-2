@@ -38,7 +38,7 @@ class Assessment:
         if assessment_type not in self.assessment_types:
             raise ValueError()
 
-        self.assessment_type = type
+        self.assessment_type = assessment_type
 
         if not 0 <= score <= 100:
             raise ValueError()
