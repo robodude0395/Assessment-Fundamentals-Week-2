@@ -66,7 +66,7 @@ class MultipleChoiceAssessment(Assessment):
         self.type_name = "multiple-choice"
 
 class TechnicalAssessment(Assessment):
-    """technical child of assessment parent class"""
+    """Technical child of assessment parent class"""
     def __init__(self, name, score):
         super().__init__(name, score)
         self.weight = 1
